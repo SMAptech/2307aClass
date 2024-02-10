@@ -4,20 +4,16 @@ class Abc{
         var num2 =6;
         console.log(num1+num2 + "this is abc class method");
     }
-    // sum(a,b){
-    //     var num1 = a;
-    //     var num2 =b;
-    //     console.log(num1+num2);
-
-    // }
-    // sum(a){
-    //     var num1 = a;
-    //     var num2 =5;
-    //     console.log(num1+num2);
-
-    // }
+    sum(a,b){
+        console.log(a+b);
+    }
+    sum(a,b,c){
+        console.log(a+b+c);
+    }
     
 }
+Object.sum();
+Object.sum(5,7);
 
 class xyz extends Abc{
     sum(){
